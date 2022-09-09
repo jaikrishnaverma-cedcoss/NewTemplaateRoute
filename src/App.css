@@ -7,9 +7,28 @@ h1{
   color: black;
 }
 .nav{
-  background-color: rgb(31, 31, 88);
+  background-color: rgba(0, 0, 0, 0.37);
   justify-content: flex-end !important;
+  width: 98%;
+  top:0;
+  padding:0% 3%;
+  position: fixed;
 }
 .btn a{
   text-decoration: none;
+  color: white;
+}
+.nav .btn{
+  background-color:  transparent;
+
+}
+.banner{
+
+  width: 100vw;
+  height: 79vh;
+}
+.foot{
+  background-color: rgb(230, 230, 230);
+  height: 16vh;
+  padding: 1.8% 4% 0% 9%;
 }
