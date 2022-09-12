@@ -9,7 +9,7 @@ function Gallery() {
                 <div className="row">
                     <input type="text" placeholder='Hours' />
                     <input placeholder='city' type="text" />
-                    <button className="btn btn-warninggit ">CALCULATE</button>
+                    <button className="btn btn-warninggit ">Our Products</button>
                 </div>
             </div>
         </>

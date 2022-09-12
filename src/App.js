@@ -2,7 +2,7 @@ import './App.css';
 import Nav from './component/Nav';
 import Home from './component/Home';
 import Feedback from './component/Feedback';
-import Event from './component/Event';
+// import Event from './component/Event';
 import Gallery from './component/Gallery';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
@@ -14,9 +14,8 @@ function App() {
       <Routes>
     
           <Route index element={<Home />} />
-          <Route path="Gallery" element={<Gallery />} />
-          <Route path="Event" element={<Event />} />
-          <Route path="Feedback" element={<Feedback />} />
+          <Route path="Products" element={<Gallery />} />
+          <Route path="Contact" element={<Feedback />} />
         
       </Routes>
     </BrowserRouter>
